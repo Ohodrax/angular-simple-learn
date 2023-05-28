@@ -22,7 +22,7 @@ To Run this project its very simple:
     ng serve
 ```
 
-# THANKS A LOT [Cod3r](https://cod3r.com.br) !!
+# THANKS A LOT [Cod3r](https://www.cod3r.com.br) !!
 
 ## angular-simple-learn
 A simple repository used to learn Angular by course of Cod3r Cursos Gratuitos | Leonardo Moura Leitao
