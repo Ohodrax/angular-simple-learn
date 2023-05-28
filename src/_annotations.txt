@@ -1,0 +1,7 @@
+CLI:
+    i -> install
+    g -> generate
+    c -> component
+
+Exemple:
+    ng g c {relativePath}
