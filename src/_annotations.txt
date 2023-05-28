@@ -2,6 +2,21 @@ CLI:
     i -> install
     g -> generate
     c -> component
+    s -> service
+    d -> directive
 
 Exemple:
     ng g c {relativePath}
+    ng g s {relativePath}
+    ng g d {relativePath}
+    
+DOM -> Document Object Model
+@Directive a partir de um seletor, ele pode mudar tanto a aparencia quando a DOM, adicionando ou removendo items
+Ex.: <input type="text" myDirective>
+
+Binding de atributos
+Ex.: <input type="text" [dataSource]="product"> -> Acessa variável de nome product
+Ex.: <input type="text" (click)="onChangeCPF"> -> Acessar a função onChangeCPF
+
+Angular Pipes "|" em (chaining) emcadeamento:
+Ex.: <p> O vencimento do produto é {{ produto.vencimento | date: 'fulldate' | uppercase }}

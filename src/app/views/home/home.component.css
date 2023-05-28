@@ -1,3 +1,7 @@
+.home{
+    background-color: #FFF;
+    padding: 10px;
+}
 .home .title{
     font-size: 3rem;
     font-weight: 300;
@@ -5,4 +9,5 @@
 }
 .home .subtitle{
     font-size: 1.1rem;
+    color: #000;
 }
