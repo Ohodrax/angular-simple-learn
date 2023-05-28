@@ -1,0 +1,15 @@
+form, .form-card, .title{
+    background-color: #FFF;
+}
+.form-card{
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-right: 15px;
+}
