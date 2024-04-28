@@ -9,7 +9,7 @@ import { EMPTY, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProductService {
-  baseUrl = 'http://localhost:3001/products';
+  baseUrl = 'https://remote-db-json-server-lizy.vercel.app/products';
 
   constructor(
     private snackBar: MatSnackBar,
